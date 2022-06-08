@@ -1,0 +1,45 @@
+{
+    "name": "PlayerControl",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "46ce2f1e-b2ec-4063-98d8-fc38bd795a9e",
+            "actions": [
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "880fe597-6d57-42bf-84fc-c3571218891a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b594e9f4-3caf-4220-b561-6c669afb0169",
+                    "path": "<ViveController>{RightHand}/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "647a9bd4-129e-4716-9a94-e546bb534fc4",
+                    "path": "<ViveController>/pointer/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
