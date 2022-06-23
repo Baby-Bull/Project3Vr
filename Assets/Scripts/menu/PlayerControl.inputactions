@@ -19,7 +19,7 @@
                 {
                     "name": "",
                     "id": "b594e9f4-3caf-4220-b561-6c669afb0169",
-                    "path": "<ViveController>{RightHand}/select",
+                    "path": "<ViveController>{RightHand}/triggerPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -30,7 +30,7 @@
                 {
                     "name": "",
                     "id": "647a9bd4-129e-4716-9a94-e546bb534fc4",
-                    "path": "<ViveController>/pointer/isTracked",
+                    "path": "<ViveController>{RightHand}/gripPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
