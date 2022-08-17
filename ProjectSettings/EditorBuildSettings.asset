@@ -6,11 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/mapOutside.unity
+    guid: 09d7c6dbfbc8b244891790646e885260
+  - enabled: 1
     path: Assets/Scenes/map1.unity
     guid: 4c2e9534890d724458b191e2e619bc2d
   - enabled: 1
-    path: Assets/Scenes/Map Outside.unity
-    guid: b1725dd3142975542a0264bd147d50a2
+    path: Assets/Scenes/mapRoom.unity
+    guid: 7cbc66e291d181f42a7f64b9a5d66b39
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ebb500788025934458b6583222967129, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: c73b900e4bace6d4db2eee9dbcce6484, type: 2}
